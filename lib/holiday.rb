@@ -74,5 +74,6 @@ def all_holidays_with_bbq(holiday_hash)
       holidays
   end.map do |dic|
       dic
+  end.select do |key, list|
   end
 end
